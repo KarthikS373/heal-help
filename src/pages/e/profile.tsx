@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 
 import ProfileCampaigns from "../../components/campaigns/ProfileCampaigns"
-import { useStateContext } from "../context"
+import { useStateContext } from "../../components/provider/Web3ContextProvider"
 
 const ProfilePage = () => {
   const [isLoading, setIsLoading] = useState(false)

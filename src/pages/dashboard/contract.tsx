@@ -1,10 +1,15 @@
-import React from 'react'
+import React from "react"
 
-import SideBar from '../../components/sidebar/SideBar'
+import ContractCreation from "../../components/contract/ContractCreation"
+import NavBar from "../../components/navbar/DashNavBar"
+import SideBar from "../../components/sidebar/SideBar"
 
 const ContractPage = () => {
   return (
-    <div><SideBar /></div>
+    <div className="grid bg-customShade-gray text-customShade-dark">
+      <NavBar />
+      <ContractCreation />
+    </div>
   )
 }
 

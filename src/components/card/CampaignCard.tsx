@@ -1,8 +1,18 @@
-import React from "react"
+import React, { DOMAttributes, HTMLAttributes } from "react"
 
 import calculateDaysLeft from "../../utils/functions/calculateDaysLeft"
 
-const FundCard = ({
+interface CampaignCardProps extends HTMLAttributes<HTMLDivElement> {
+  owner: string
+  title: string
+  description: string
+  target: string
+  amountCollected: string
+  deadline: string
+  image: string
+}
+
+const CampaignCard = ({
   owner,
   title,
   description,
@@ -10,14 +20,14 @@ const FundCard = ({
   deadline,
   amountCollected,
   image,
-  handleClick,
-}) => {
+  onClick,
+}: CampaignCardProps) => {
   const remainingDays = calculateDaysLeft(deadline)
 
   return (
     <div
       className="w-full cursor-pointer rounded-[15px] bg-[#1c1c24] sm:w-[288px]"
-      onClick={handleClick}
+      onClick={onClick}
     >
       <img src={image} alt="fund" className="h-[158px] w-full rounded-[15px] object-cover" />
 
@@ -70,4 +80,4 @@ const FundCard = ({
   )
 }
 
-export default FundCard
+export default CampaignCard

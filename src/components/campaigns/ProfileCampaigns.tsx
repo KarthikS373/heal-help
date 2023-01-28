@@ -1,12 +1,29 @@
 import React from "react"
 import { useRouter } from "next/router"
 
-import FundCard from "./FundCard"
+import CampaignCard from "../card/CampaignCard"
 
-const ProfileCampaigns = ({ title, isLoading, campaigns }) => {
+interface Campaign {
+  id: string
+  owner: string
+  title: string
+  description: string
+  target: string
+  amountCollected: string
+  deadline: string
+  image: string
+}
+
+interface ProfileCampaignsProps {
+  title: string
+  campaigns: Array<Campaign>
+  isLoading: boolean
+}
+
+const ProfileCampaigns = ({ title, isLoading, campaigns }: ProfileCampaignsProps) => {
   const router = useRouter()
 
-  const handleNavigate = (campaign) => {
+  const handleNavigate = (campaign: Campaign) => {
     router.push(`/campaign-details/${campaign.title}`)
   }
 
@@ -21,17 +38,17 @@ const ProfileCampaigns = ({ title, isLoading, campaigns }) => {
 
         {!isLoading && campaigns.length === 0 && (
           <p className="font-epilogue text-[14px] font-semibold leading-[30px] text-[#818183]">
-            You have not created any campigns yet
+            You have not created any campaigns
           </p>
         )}
 
         {!isLoading &&
           campaigns.length > 0 &&
           campaigns.map((campaign) => (
-            <FundCard
+            <CampaignCard
               key={campaign.id}
               {...campaign}
-              handleClick={() => handleNavigate(campaign)}
+              onClick={() => handleNavigate(campaign)}
             />
           ))}
       </div>

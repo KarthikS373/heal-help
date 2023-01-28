@@ -1,5 +1,6 @@
 import React from "react"
 
+import ReasonToFund from "../components/causes/ReasonToFund"
 import Features from "../components/features/Features"
 import Footer from "../components/footer/Footer"
 import Hero from "../components/hero/Hero"
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Hero />
       <Features />
       <HowWeWork />
+      <ReasonToFund />
       <NewsLetter />
       <HomeTeam />
       <Footer />

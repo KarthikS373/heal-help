@@ -5,9 +5,9 @@ import Link from "next/link"
 const Navbar = ({ className }: HTMLAttributes<HTMLDivElement>) => {
   return (
     <nav className={"w-full bg-white px-24 py-8 text-black " + className}>
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-row items-center justify-between">
         <div className="h-min cursor-pointer">
-          <Link href={'/'}>
+          <Link href={"/"}>
             <Image src={"/logo.png"} alt="SmartSeal" width={160} height={160} />
           </Link>
         </div>
@@ -16,7 +16,7 @@ const Navbar = ({ className }: HTMLAttributes<HTMLDivElement>) => {
             <li>Home</li>
             <li>About</li>
             <li>Escrow</li>
-            <Link href={'/connect'}>
+            <Link href={"/connect"}>
               <li className="group cursor-pointer rounded border border-customShade-blue px-4 hover:bg-customShade-blue hover:text-white">
                 <span className="text-customShade-blue group-hover:text-white">Connect</span>
                 <span className="mb-6 px-1 text-[#e5e5e5]"> | </span>

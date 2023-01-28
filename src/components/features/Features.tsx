@@ -53,7 +53,7 @@ const Features = () => {
   const [activeFeature, setActiveFeature] = React.useState(0)
 
   return (
-    <div className="w-full bg-gradient-to-r from-[#fefefef7] to-[#ffffff] py-8 px-2 text-center text-black sm:px-16 md:px-72">
+    <div className="w-full bg-[#fefefef7] py-8 px-2 text-center text-black sm:px-16 md:px-72">
       <div className="grid grid-cols-1 items-stretch gap-6 md:grid-cols-2">
         <div className="flex flex-col gap-4">
           {features.map((feature, index) => {
@@ -89,7 +89,7 @@ const Features = () => {
             )
           })}
         </div>
-        <div className="center relative rounded-lg border border-[#eee] py-16 shadow">
+        <div className="center relative rounded-lg border border-[#eee] bg-white/50 py-16 shadow">
           <div className="center flex-col gap-4 text-center">
             <SPLayer>{features[activeFeature].icon}</SPLayer>
             <p className="line-clamp-2 w-2/3 text-customShade-dark">

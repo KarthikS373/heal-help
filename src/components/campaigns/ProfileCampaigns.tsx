@@ -1,18 +1,9 @@
 import React from "react"
 import { useRouter } from "next/router"
 
-import CampaignCard from "../card/CampaignCard"
+import { Campaign } from "@/types/Campain"
 
-interface Campaign {
-  id: string
-  owner: string
-  title: string
-  description: string
-  target: string
-  amountCollected: string
-  deadline: string
-  image: string
-}
+import CampaignCard from "../card/CampaignCard"
 
 interface ProfileCampaignsProps {
   title: string

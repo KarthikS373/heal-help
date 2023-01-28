@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Karthik S",
+    "image": "https://media.licdn.com/dms/image/D4D03AQEZwTVdqpXUkQ/profile-displayphoto-shrink_400_400/0/1673695126743?e=1680134400&v=beta&t=CWMOoFH-EHybichv0FA7yjHlxsrE4v364u8QgErx_VE",
+    "email": "karthiks.naick@gmail.com",
+    "bio": "Web | Android | Blockchain",
+    "social": {
+      "portfolio": "https://karthik-is-dev.xyz",
+      "linkedin": "",
+      "instagram": "",
+      "twitter": "",
+      "github": ""
+    }
+  },
+  {
+    "name": "Apoorva Kothari",
+    "image": "https://media.licdn.com/dms/image/C4D03AQHkELz5WjoYlQ/profile-displayphoto-shrink_100_100/0/1642619199407?e=1680134400&v=beta&t=cNLruG8AzErnMfuz9Kq3nSfTDU7SWc3zIsW5Mo_19o8",
+    "email": "",
+    "bio": "Add something here",
+    "social": {
+      "portfolio": "",
+      "linkedin": "",
+      "instagram": "",
+      "twitter": "",
+      "github": ""
+    }
+  },
+  {
+    "name": "Advit Mahale",
+    "image": "https://media.licdn.com/dms/image/D4D03AQEC1dD-VJFVpQ/profile-displayphoto-shrink_100_100/0/1671710021171?e=1680134400&v=beta&t=Q31Hb-0DqmHre1-yNlsHRFX2PIYNtAK3cHosysTOM6c",
+    "email": "",
+    "bio": "Add something here",
+    "social": {
+      "portfolio": "",
+      "linkedin": "",
+      "instagram": "",
+      "twitter": "",
+      "github": ""
+    }
+  }
+]

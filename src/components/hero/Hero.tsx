@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link"
 
 const Hero = () => {
   return (
@@ -19,12 +20,18 @@ const Hero = () => {
         laudantium accusantium commodi neque nulla inventore? Saepe quae nam rem pariatur!
       </p>
       <div className="flex flex-row flex-wrap gap-6">
-        <button className="mt-4 rounded bg-gradient-to-br from-customShade-purple to-customShade-blue px-6 py-2 text-lg leading-5 text-white hover:border hover:border-customShade-blue hover:from-white hover:text-customShade-dark">
+        <Link
+          href={"/e/campaign/create-new"}
+          className="mt-4 rounded bg-gradient-to-br from-customShade-purple to-customShade-blue px-6 py-2 text-lg leading-5 text-white hover:border hover:border-customShade-blue hover:from-white hover:text-customShade-dark"
+        >
           Start a Fundraiser
-        </button>
-        <button className="mt-4 rounded border border-customShade-blue px-6 py-2 text-lg leading-5 text-customShade-dark hover:bg-customShade-blue hover:text-white">
+        </Link>
+        <Link
+          href={"/e/campaign/"}
+          className="mt-4 rounded border border-customShade-blue px-6 py-2 text-lg leading-5 text-customShade-dark hover:bg-customShade-blue hover:text-white"
+        >
           Donate for a cause
-        </button>
+        </Link>
       </div>
     </div>
   )

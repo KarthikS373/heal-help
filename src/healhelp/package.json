@@ -9,6 +9,7 @@
     "hardhat": "^2.10.1"
   },
   "dependencies": {
+    "@thirdweb-dev/auth": "^3.0.0",
     "@thirdweb-dev/contracts": "^3"
   }
 }

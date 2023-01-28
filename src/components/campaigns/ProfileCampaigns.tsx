@@ -24,11 +24,14 @@ const ProfileCampaigns = ({ title, isLoading, campaigns }: ProfileCampaignsProps
   const router = useRouter()
 
   const handleNavigate = (campaign: Campaign) => {
-    router.push(`/campaign-details/${campaign.title}`)
+    router.push({
+      pathname: `/e/campaign/${campaign.title}`,
+      query: { campaign: JSON.stringify(campaign) },
+    })
   }
 
   return (
-    <div>
+    <div className="p-32">
       <h1 className="font-epilogue text-left text-[18px] font-semibold text-white">
         {title} ({campaigns.length})
       </h1>

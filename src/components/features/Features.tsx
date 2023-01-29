@@ -9,42 +9,40 @@ import SPLayer from "../atoms/Layer/SPLayer"
 const features = [
   {
     id: 0,
-    title: "feature 1",
-    excerpt: "Lorem ipsum dolor sit, amet consectetur adipisicing...",
+    title: "Fast Transactions",
+    excerpt: "The platform uses blockchain technology and smart contracts to ensure all transactions are secure and transparent.",
     description:
-      "0 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, odit optio. Optio quam, explicabo ipsa laboriosam illo pariatur corporis ducimus ad laudantium aut, repellendus quo. Porro, voluptatibus modi possimus deserunt laudantium adipisci excepturi soluta dignissimos!",
+      "The platform uses blockchain technology and smart contracts to ensure that all transactions are secure and transparent.",
     icon: <BsFillLightningChargeFill />,
   },
   {
     id: 1,
-    title: "feature 2",
-    excerpt: "Lorem ipsum dolor sit, amet consectetur adipisicing...",
-    description:
-      "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, odit optio. Optio quam, explicabo ipsa laboriosam illo pariatur corporis ducimus ad laudantium aut, repellendus quo. Porro, voluptatibus modi possimus deserunt laudantium adipisci excepturi soluta dignissimos!",
+    title: "Completely Decentralized",
+    excerpt: "The platform utilizes the Filecoin network to store files, ensuring that they are stored in a secure and private manner. ",
+    description:"The platform utilizes the Filecoin network to store files, ensuring that they are stored in a secure and private way.",
     icon: <RiSecurePaymentLine />,
   },
   {
     id: 2,
-    title: "feature 3",
-    excerpt: "Lorem ipsum dolor sit, amet consectetur adipisicing...",
-    description:
-      "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, odit optio. Optio quam, explicabo ipsa laboriosam illo pariatur corporis ducimus ad laudantium aut, repellendus quo. Porro, voluptatibus modi possimus deserunt laudantium adipisci excepturi soluta dignissimos!",
+    title: "Global reach: ",
+    excerpt: "The platform allows for fundraising campaigns to be started and donations to be made from anywhere in the world reaching a global audience.",
+    description:"The platform allows for fundraising campaigns to be started and donations to be made from anywhere in the world, making it accessible to a global audience.",
     icon: <MdOutlineDocumentScanner />,
   },
   {
     id: 3,
-    title: "feature 4",
-    excerpt: "Lorem ipsum dolor sit, amet consectetur adipisicing...",
+    title: "Enhanced Security",
+    excerpt: "The platform uses blockchain technology and smart contracts to ensure that all transactions are secure..",
     description:
-      "4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, odit optio. Optio quam, explicabo ipsa laboriosam illo pariatur corporis ducimus ad laudantium aut, repellendus quo. Porro, voluptatibus modi possimus deserunt laudantium adipisci excepturi soluta dignissimos!",
+      "The platform uses blockchain technology and smart contracts to ensure that all transactions are secure and transparent.",
     icon: <MdSecurity />,
   },
   {
     id: 4,
-    title: "feature 5",
-    excerpt: "Lorem ipsum dolor sit, amet consectetur adipisicing...",
+    title: "24/7 Support",
+    excerpt: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, odit optio. Optio quam, expl...",
     description:
-      "5 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, odit optio. Optio quam, explicabo ipsa laboriosam illo pariatur corporis ducimus ad laudantium aut, repellendus quo. Porro, voluptatibus modi possimus deserunt laudantium adipisci excepturi soluta dignissimos!",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, odit optio. Optio quam, explicabo ipsa laboriosam illo pariatur corporis ducimus ad laudantium aut, repellendus quo. Porro, voluptatibus modi possimus deserunt laudantium adipisci excepturi soluta dignissimos!",
     icon: <MdSupportAgent />,
   },
 ]

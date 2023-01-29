@@ -56,9 +56,10 @@ export const Web3ContextProvider = ({ children }) => {
   }
 
   const donate = async (pId, amount) => {
-    await contract.call("donateToCampaign", pId, {
-      value: ethers.utils.parseUnits(amount),
+    const data = await contract.call("donateToCampaign", pId, {
+      value: ethers.utils.parseEther(amount),
     })
+    return data
   }
 
   const getDonations = async (pId) => {

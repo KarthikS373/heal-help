@@ -155,8 +155,8 @@ const CampaignExtended = ({ state }: CampaignExtendedProps) => {
                   Because your donation might save a life.
                 </h4>
                 <p className="font-epilogue mt-[20px] font-normal leading-[22px] text-[#808191]">
-                  Support not just for reward, but for a blessing... Your donation might just save a
-                  life
+                  Support not just for reward, but for a blessing... Your donation might save a
+                  life.
                 </p>
               </div>
 

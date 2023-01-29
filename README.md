@@ -46,10 +46,6 @@ In this section, provide a summary of your project and its purpose. Explain the 
 
 > This will start the development server and you should be able to see your project running at [`http://localhost:3000`](http://localhost:3000) in your browser.
 
-## Reports
-
-Include any relevant reports or documents related to the project, such as design documents, testing reports, or user manuals.
-
 ## Tech used and Code Explanations
 
 The platform is built using the following technologies:
@@ -61,8 +57,27 @@ The platform is built using the following technologies:
 - Ethers.js: A complete Ethereum library for JavaScript that provides a seamless integration with the Ethereum blockchain.
 
 ### Why this tech stack?
+
 We chose Next.js for its ability to handle both server-side rendering and static generation, making it easy to build fast-loading and SEO-friendly web applications. ThirdWeb provides a seamless integration with the Ethereum blockchain, making it easy to build decentralized applications that are secure and transparent.
 
 Tailwind CSS provides a comprehensive set of utility classes that make it easy to build fast-loading and responsive user interfaces, while TypeScript provides the benefits of statically typed programming to JavaScript, making it easier to catch errors and improve the overall quality of the code.
 
 Ethers.js provides a complete library for interacting with the Ethereum blockchain, making it easy to interact with smart contracts, send transactions, and access information about the blockchain.
+
+## Media
+
+<table>
+  <tr>
+    <td> <img src="./media/homepage.png"  alt="Homepage" width=520px height=320px ></td>
+    <td><img src="./media/campaigns.png" alt="Campaign" width=520px height=320px></td>
+   </tr> 
+   <tr>
+      <td><img src="./media/start-campaign.png" alt="Create a campaign" width=520px height=320px></td>
+      <td><img src="./media/donation.png" alt="Donate to a campaign" width=520px height=320px>
+  </td>
+  </tr>
+   <tr>
+      <td><img src="./media/transaction.png" alt="Transaction" width=520px height=320px></td>
+  </td>
+  </tr>
+</table>

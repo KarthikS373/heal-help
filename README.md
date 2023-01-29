@@ -1,6 +1,6 @@
-# Project Title
+# Heal Help
 
-A brief and catchy description of your project goes here.
+Empowering Communities for Secure & Transparent Crowdfunding of Medical Emergencies & Social Causes
 
 ## Introduction
 
@@ -8,33 +8,61 @@ In this section, provide a summary of your project and its purpose. Explain the 
 
 ## Configuration
 
-List the dependencies and tools required for the project, as well as any specific instructions for setting up the development environment.
+1. First, make sure you have Node.js and npm (Node Package Manager) installed on your computer, You can check this by running the following commands in your terminal:
 
-## Installation
+```
+    node -v
+    npm -v
+```
 
-Provide detailed instructions on how to install and set up the project. This should include steps for downloading the code, installing dependencies, and running any necessary scripts.
+> Read docs here [Node.js Documentation](https://nodejs.org/en/docs/)
+
+2. Once you have npm installed you can run the following both to install and upgrade Yarn
+
+```
+    npm install --global yarn
+    yarn --version
+```
+
+> Read docs here [Yarn Installation guide](https://classic.yarnpkg.com/lang/en/docs/install)
+
+1. Clone the HealHelp project from GitHub
+
+```
+    git clone https://github.com/KarthikS373/heal-help.git
+```
+
+2. Once the project is cloned, navigate into the project directory and run the following command to install all the necessary dependencies:
+
+```
+    yarn install
+```
+
+3. Finally, to start the development server, run the following command in your terminal:
+
+```
+    yarn dev
+```
+
+> This will start the development server and you should be able to see your project running at [`http://localhost:3000`](http://localhost:3000) in your browser.
 
 ## Reports
 
 Include any relevant reports or documents related to the project, such as design documents, testing reports, or user manuals.
 
-## Details
+## Tech used and Code Explanations
 
-Provide a more in-depth explanation of the project, including its features and functionality. This can include code examples and technical details.
+The platform is built using the following technologies:
 
-## Language and Code Explanations
+- Next.js: A React-based framework for building server-side rendered and statically generated web applications.
+- ThirdWeb: A framework for building decentralized applications on the Ethereum blockchain.
+- Tailwind CSS: A utility-first CSS framework for building responsive and fast-loading user interfaces.
+- TypeScript: A statically typed superset of JavaScript that adds optional types to the language.
+- Ethers.js: A complete Ethereum library for JavaScript that provides a seamless integration with the Ethereum blockchain.
 
-If your project uses a specific programming language or framework, provide a brief overview of the language and any relevant code examples. Explain any key concepts or patterns used in the project.
+### Why this tech stack?
+We chose Next.js for its ability to handle both server-side rendering and static generation, making it easy to build fast-loading and SEO-friendly web applications. ThirdWeb provides a seamless integration with the Ethereum blockchain, making it easy to build decentralized applications that are secure and transparent.
 
-## Contributors
+Tailwind CSS provides a comprehensive set of utility classes that make it easy to build fast-loading and responsive user interfaces, while TypeScript provides the benefits of statically typed programming to JavaScript, making it easier to catch errors and improve the overall quality of the code.
 
-List the contributors to the project, along with their roles and responsibilities.
-
-## Links
-
-- Link to the issue tracker: [Insert link here]
-- Link to the project documentation: [Insert link here]
-- Link to the project homepage: [Insert link here]
-- Link to the project's license: [Insert link here]
-
-_Note: Keep the links centered on their own line_
+Ethers.js provides a complete library for interacting with the Ethereum blockchain, making it easy to interact with smart contracts, send transactions, and access information about the blockchain.
